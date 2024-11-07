@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{{ content }}
+{% for item in site[page.collection] %}
+  <article class="project-entry">
+    {% if item.image %}
+      <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
+    {% endif %}
+    <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+    <p>{{ item.excerpt }}</p>
+  </article>
+{% endfor %}

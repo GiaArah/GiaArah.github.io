@@ -1,9 +1,19 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
+  - title: "audio"
+    url: /audio/
+  - title: "game design"
+    url: /game-design/
+  - title: "engineering"
+    url: /engineering/
+  - title: "cv"
+    url: /cv/
+  - title: "about"
     url: /about/
+
+
+  # - title: "posts"
+  #   url: /posts/
+  # - title: "categories"
+  #   url: /categories/
+  # - title: "tags"
+  #   url: /tags/
