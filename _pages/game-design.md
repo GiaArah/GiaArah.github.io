@@ -6,28 +6,28 @@ toc: true
 toc_sticky: true
 
 feature_row_leveldesign:
-  - image_path: /assets/gifs/sorelle_cc_thumbnail.gif
+  - image_path: /assets/gifs/cc.gif
     alt: "Cathedral Climb"
     title: "Cathedral Climb"
     excerpt: "designed puzzles, platforming sequences, & unique environment mechanics for the final, climactic level of the game"
     url: "/game-design/cathedral-climb/"
     btn_class: "btn--primary"
     btn_label: "view details"
-  - image_path: /assets/gifs/sorelle_sl_thumbnail_02.gif
+  - image_path: /assets/gifs/sl.gif
     alt: "String Lights"
     title: "String Lights"
     excerpt: "designed lantern object encounters, platforming, & lighting design for the nighttime level."
     url: "/game-design/string-lights/"
     btn_class: "btn--primary"
     btn_label: "view details"
-  - image_path: /assets/gifs/sorelle_mp_thumbnail.gif
+  - image_path: /assets/gifs/mp.gif
     alt: "Marketplace"
     title: "Marketplace"
     excerpt: "conducted thorough level redesign + polish for two mid-game level sequences"
     url: "/game-design/marketplace/"
     btn_class: "btn--primary"
     btn_label: "view details"     
-  - image_path: /assets/gifs/sorelle_pier_thumbnail.gif
+  - image_path: /assets/gifs/pier.gif
     alt: "Pier"
     title: "Pier"
     excerpt: "conducted thorough level redesign + polish for two early-game level sequences"
