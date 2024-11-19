@@ -2,7 +2,7 @@
 layout: splash
 hidden: false
 permalink: /other-projects/
-title: "Other Projects"
+title: "Experiments & Other Projects"
 ---
 
 ## Sound Garden
