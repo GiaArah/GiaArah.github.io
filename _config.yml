@@ -33,7 +33,7 @@ remote_theme: mmistakes/minimal-mistakes
 # Add folders to include in builds
 include:
   - _pages
-  - _game-design
+  - game-design
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
