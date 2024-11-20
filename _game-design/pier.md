@@ -1,4 +1,5 @@
 ---
+layout: single
 hidden: false
 permalink: /game-design/pier
 title: "Sorelle Game Design: Pier"
