@@ -32,6 +32,7 @@ remote_theme: mmistakes/minimal-mistakes
 
 include:
   - _pages
+  - _game-design
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -107,6 +108,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: "_game-design"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 category_archive:
   type: liquid
@@ -114,6 +121,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
 
 favicon: "/assets/images/control_knobs.png"

@@ -58,6 +58,8 @@ Click for further details
 ## Sorelle: Cutscene Creation
 *Using C++, Blueprint-triggered events, & Unreal's sequencer to craft exciting cutscenes*
 
+![](/assets/images/Sorelle_Cutscene_SS.png)
+
 ## Sorelle: Environment Art
 *Set dressing with modular building designs, custom props, niagara systems, lighting, and foliage to realize a charming Sicilian town*
 
@@ -66,3 +68,6 @@ Click for further details
 ![](/assets/images/marketplace_afternoon.png)
 ![](/assets/images/pier_noon.png)
 ![](/assets/images/pier_afternoon.png)
+
+## Sorelle: Tech Art - Materials & Lighting
+
