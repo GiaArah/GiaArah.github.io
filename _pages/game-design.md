@@ -69,5 +69,5 @@ Click for further details
 ![](/assets/images/pier_noon.png)
 ![](/assets/images/pier_afternoon.png)
 
-## Sorelle: Tech Art - Materials & Lighting
+<!-- ## Sorelle: Tech Art - Materials & Lighting -->
 
