@@ -7,6 +7,7 @@ toc: true
 toc_sticky: true 
 ---
 
+*Directed & guided design team through a 1-year development cycle.*
 
 *Made substantial level re-designs for the game's release to Steam.*
 
@@ -29,7 +30,7 @@ There were some design difficulties we discovered during playtests:
 Footage of before the re-design:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6kFB0QaQG1Q?si=QVf8_vlBdXdlRJQ1&amp;start=630" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Level Design Fixes:
+## Level Design Changes:
 I wanted to keep the core design of the level the same: slowly unvieling mirrors to ricochet Capri's light all the way to an unreachable lighthouse in the distance.
 
 With this in mind, to fix the usability issues I implemented the following:

@@ -49,7 +49,7 @@ A 3-week long student project made for a "game prototyping" class. The prompt fo
 - Developed a save system to keep score, position on board, and board layout
 
 ### Egress: Colorspace Conversion
-- To solve the issue where randomized color selections were too similar, I used a C# color utility tool to convert the color selection from the RGB color space to the CIE Lab colorspace, which more accurately reflects the human eye's color perception
+- To solve the issue where randomized color selections were too similar, I used a C# color utility tool to convert the color selection from the RGB color space to the CIE Lab colorspace, which more accurately reflects the human eye's color perception. Using a distance calculation, I ensured the colors chosen sequentially were distinct enough.
 
 # Coursework
 For coursework, private Github Repositories are available upon request
