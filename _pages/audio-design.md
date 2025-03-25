@@ -23,7 +23,7 @@ author_profile: true
   <div style="width: 40%; text-align: center;">
     <h3>Diablo 4 - Audio Design Intern</h3>
     <a href="/projects/D4/">
-      <img src="/assets/images/D4_Thumbnail.png" alt="Manas" style="width: 100%; border-radius: 10px;">
+      <img src="/assets/images/D4_Thumbnail.png" alt="D4" style="width: 100%; border-radius: 10px;">
       <br><br>
       <button style="
         background: #007bff; 
@@ -43,7 +43,7 @@ author_profile: true
   <div style="width: 40%; text-align: center;">
     <h3>Call of Duty: MW3 - Audio Design Intern</h3>
     <a href="/projects/MW3/">
-      <img src="/assets/images/MW3_Thumbnail.png" alt="Manas" style="width: 100%; border-radius: 10px;">
+      <img src="/assets/images/MW3_Thumbnail.png" alt="MW3" style="width: 100%; border-radius: 10px;">
       <br><br>
       <button style="
         background: #007bff; 
