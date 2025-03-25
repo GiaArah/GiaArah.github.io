@@ -5,8 +5,10 @@ main:
     url: /game-design/
   - title: "engineering"
     url: /engineering/
-  - title: "cv"
-    url: /cv/
+  - title: "coursework"
+    url: /coursework/
+  - title: "resume"
+    url: /resume/
   - title: "about"
     url: /about/
 

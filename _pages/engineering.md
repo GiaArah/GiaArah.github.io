@@ -6,7 +6,10 @@ toc: true
 toc_sticky: true
 ---
 <!-- # Engineering -->
-## Lucerna
+## The Lantern
+<div markdown="1">
+  <a href="https://giaarah.itch.io/thelantern" class="btn btn--primary"><i class="fa-brands fa-itch-io"></i> Play The Lantern on Itch</a>
+</div>
 *Developed Using C#, Unity*
 
 <!-- Lucerna is semester-long student project developed by a team of two. I was the primary engineer and game designer on the team and managed the implementation between Wwise and the Unity project. -->
@@ -50,39 +53,3 @@ A 3-week long student project made for a "game prototyping" class. The prompt fo
 
 ### Egress: Colorspace Conversion
 - To solve the issue where randomized color selections were too similar, I used a C# color utility tool to convert the color selection from the RGB color space to the CIE Lab colorspace, which more accurately reflects the human eye's color perception. Using a distance calculation, I ensured the colors chosen sequentially were distinct enough.
-
-# Coursework
-For coursework, private Github Repositories are available upon request
-
-## Coursework: Advanced Gameplay Programming in Unreal Engine
-- Created a top-down third person puzzle game
-- Built a fully networked FPS game with chat features
-
-<div>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/veShB-W2XCc?si=ETIXC2rhmmPksLpe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-## Coursework: Video Game Programming
-- Programmed 9 2D/3D games using SDL library and C++
-  - Implemented features including delta time, actor classes, collision components, sprite animations, A* pathfinding, Enemy AI behaviors, 2D/3D player controllers
-
-
-## Coursework: Computer Graphics
-- Made Height Fields, Roller Coaster Simulation, and a Ray Caster in OpenGL & C++
-
-<!-- {% include figure image="/assets/gifs/CSCI420_heightmap.gif" caption="heightmap example" %}
-{% include figure image="/assets/images/csci420_raycaster.jpg" caption="raycaster example." %} -->
-![](/assets/gifs/CSCI420_heightmap.gif)
-![](/assets/images/csci420_raycaster.jpg)
-
-## Coursework: Computer Systems
-- Programmed in C, learning foundations of computer systems hardware organization
-  - Assembly Operations, Stack Procedure Calls, Caches, Virtual Memory, Heap Management
-
-## Coursework: Robotics (in progress)
-- Using concepts of localization, mapping, and filtering
-- Applying dynamics and kinematics to simulate robot perception and motion in Python and ROS
-
-![](/assets/gifs/CSCI545_sample_01.gif)
-
-<!-- ## Course: Game Engine Development (in progress) -->
