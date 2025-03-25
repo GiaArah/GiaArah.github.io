@@ -45,3 +45,7 @@ For coursework, private Github Repositories are available upon request
 ## Multimedia Systems Design
 - Implementing industry-wide image, video, and audio compression algorithms including JPEG, MPEG, and MP3
 
+## Virtual Production in LED Volumes
+- Working on set for 6 live-action film projects
+- Assisting with Unreal Engine 5.4 debugging, graphics optimization, and tech art
+
