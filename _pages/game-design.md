@@ -6,6 +6,8 @@ toc: true
 toc_sticky: true
 ---
 
+## Projects
+
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; ">
   <div style="width: 60%; text-align: center;">
     <h3>Sorelle</h3>
