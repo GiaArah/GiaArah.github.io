@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Gia Lang"
   avatar : "/assets/images/lang_bio_photo.jpg"
-  bio    : "audio designer, game designer, programmer." 
+  bio    : "sound designer, game designer, programmer." 
   links:
     - label: "Email"
       icon: "fa-solid fa-envelope"

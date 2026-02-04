@@ -1,0 +1,43 @@
+---
+---
+
+@import "minimal-mistakes/skins/dark";
+
+@import "minimal-mistakes";
+
+
+@media (min-width: 1024px) {
+  .layout--home .feature__wrapper {
+    flex-wrap: nowrap;
+  }
+}
+
+.feature__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+.feature__item {
+  flex: 1 1 240px;
+  padding: 1.5rem;
+  max-width: none;
+}
+
+.feature__wrapper {
+  width: 100vw;
+  max-width: 100vw;
+
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  display: flex;
+  gap: 2rem;
+}
