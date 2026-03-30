@@ -1,6 +1,20 @@
 <style>
-    .image-gallery {overflow: auto; margin-left: -1%!important;}
-    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+    .image-gallery {
+        overflow: auto;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1%;
+    }
+    .image-gallery li {
+        display: block;
+        width: 40%;
+        position: relative;
+        overflow: hidden;
+        line-height: 0;
+    }
     .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
     .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
     .image-gallery li a img {width: 100%; display: block;}
@@ -40,12 +54,6 @@
     .image-gallery li { width: 24%; }
     }
     @media (max-width: 768px) {
-        .image-gallery li { width: 32.33%; }
-    }
-    @media (max-width: 520px) {
-        .image-gallery li { width: 49%; }
-    }
-    @media (max-width: 320px) {
         .image-gallery li { width: 99%; }
     }
 </style>
