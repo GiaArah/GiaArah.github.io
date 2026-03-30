@@ -1,0 +1,73 @@
+<style>
+    .image-gallery {overflow: auto; margin-left: -1%!important;}
+    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+    .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+    .image-gallery li a img {width: 100%; display: block;}
+        .image-gallery li a:hover img { transform: scale(1.05); }
+    .image-gallery li a .overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0.5em;
+        font-size: 0.9em;
+        font-weight: bold;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    .image-gallery li a .img-wrap {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        line-height: 0;
+
+        /* Mask the entire container, not just the overlay */
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+    }
+    .image-gallery li a:hover .overlay { opacity: 1; }
+    .image-gallery li { float: left; display: block; margin: 0 0 1% 1%; width: 19%; position: relative; overflow: hidden; line-height: 0; }
+    .image-gallery li a { text-decoration: none !important; display: block; position: relative; line-height: 0; }
+
+    @media (max-width: 1024px) {
+    .image-gallery li { width: 24%; }
+    }
+    @media (max-width: 768px) {
+        .image-gallery li { width: 32.33%; }
+    }
+    @media (max-width: 520px) {
+        .image-gallery li { width: 49%; }
+    }
+    @media (max-width: 320px) {
+        .image-gallery li { width: 99%; }
+    }
+</style>
+
+
+
+<ul class="image-gallery">
+{% for item in site.data.gallery %}
+  {% assign filenameparts = item.file | split: "/" %}
+  {% assign filenameext = filenameparts | last %}
+  {% assign ext = filenameext | split: "." | last %}
+  {% assign filename = filenameext | replace: ext, "" | remove: "." %}
+  {% assign projectname = filename | split: "-" %}
+  {% assign lastpart = projectname | last %}
+  {% assign projectslug = filename | remove_last: lastpart | remove_last: "-" %}
+<li>
+  <a href="/projects/{{ projectname[0] }}/" title="{{ projectname[0] }}">
+    <div class="img-wrap" style="-webkit-mask-image: url('{{ item.file }}'); mask-image: url('{{ item.file }}');">
+      <img src="{{ item.file }}" alt="{{ projectslug }}" />
+      <span class="overlay">{{ item.caption }}</span>
+    </div>
+  </a>
+</li>
+{% endfor %}
+</ul>

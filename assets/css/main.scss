@@ -5,6 +5,9 @@
 
 @import "minimal-mistakes";
 
+.layout--home #main {
+  max-width: 90% !important;
+}
 
 @media (min-width: 1024px) {
   .layout--home .feature__wrapper {
