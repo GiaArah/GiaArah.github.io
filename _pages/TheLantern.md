@@ -7,6 +7,8 @@ toc_sticky: true
 ---
 
 <!-- ## The Lantern -->
+## Programmer, Game Designer
+
 <div markdown="1">
   <a href="https://giaarah.itch.io/thelantern" class="btn btn--primary"><i class="fa-brands fa-itch-io"></i> Play The Lantern on Itch</a>
 </div>
@@ -26,9 +28,10 @@ Primary contributions for the project:
 - Additively loading in 2D puzzles into 3D game through render textures
 - Created game managers for cutscenes, cameras, audio, & gameplay
 
-### Player Controller Script
+### Player Controller
+![](/assets/images/TheLantern_PlayerScreenshot.png)
 For The Lantern, the player has 4 states: grounded, flying, aiming, and in-puzzle. 
 
-The player should be able to seamlessly transition between all states, and the aiming state can be activated simultaneously with other locomotive states. 
+The player seamlessly transitions between all states, and the aiming state can be activated simultaneously with other locomotive states. 
 
 <!-- See the in-progress code [on GitHub](https://github.com/GiaArah/TheLanternCodeSamples/blob/main/PlayerController.cs). -->

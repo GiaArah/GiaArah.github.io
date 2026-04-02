@@ -1,13 +1,13 @@
 ---
 hidden: false
 permalink: /projects/MW3/
-title: "Call of Duty: MW3 (Audio Design Internship)"
+title: "Call of Duty: MW3"
 toc: true
 toc_sticky: true
 ---
 
 
-## Call of Duty: MW3 (Audio Design Internship)
+## Audio Design Internship
 *Designed and implemented sound effects using Reaper and proprietary game and audio engines, APE and Audio Manager*
 
 <div markdown="1">

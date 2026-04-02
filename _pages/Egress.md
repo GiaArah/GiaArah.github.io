@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 ---
 
-<!-- ## Egress (game prototype) -->
+## Programmer, Game Designer
 *Developed Using C#, Unity*
 
 <div markdown="1">

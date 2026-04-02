@@ -36,7 +36,7 @@ feature_row_leveldesign:
     btn_label: "view details"    
 ---
 
-### Role: Creative Director
+## Creative Director
 *Developed in C++, Unreal Engine 5.2*
 
 <div markdown="1">

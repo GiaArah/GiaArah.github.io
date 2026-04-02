@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 ---
 
-####  Role: Project Technical Audio Lead
+## Technical Audio Lead
 *Developed Using UE Blueprints, Unreal Engine 5.1*
 <div markdown="1">
   <a href="https://uscgames.itch.io/manas" class="btn btn--primary"><i class="fa-brands fa-itch-io"></i> Play Manas on Itch</a>
